@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <form>
+    <input type="text" id="formValueId" name="valueId"/>
+    <input type="button" onclick="vMorse(valueId.value); playMorse(vMorse(valueId.value));">
+
+  </form>
+  <div id="inner">
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+
+
+
+    <audio id="dot">
+        <source src="dot2.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="dash">
+      <source src="dash.mp3" type="audio/mp3">
+    </audio>
+  </div>
+  <script type ="text/javascript" src="morse.js">
+
+  </script>
+</body>
+</html>
